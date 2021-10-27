@@ -6,7 +6,7 @@ import Feature3 from "../assests/quality.svg";
 
 const Features = () => (
   <div>
-    <ScrollAnimation animateIn="fadeInDown" duration="2">
+    <ScrollAnimation animateIn="fadeInDown" duration="2" animateOnce>
       <h1 className="title">Features</h1>
       <span className="underline" />
       <div className="features">
