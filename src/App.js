@@ -9,8 +9,6 @@ const App = () => {
     <div>
       <Navbar />
       <About />
-      <h1 className="title">Features</h1>
-      <span className="underline" />
       <Features />
       <div className="bottom-wave">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
