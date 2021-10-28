@@ -1,6 +1,6 @@
 import React from "react";
-import About from "../components/about";
-import Features from "../components/features";
+import About from "../components/about/about";
+import Features from "../components/features/features";
 
 const Home = () => {
   return (

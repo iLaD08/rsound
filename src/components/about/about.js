@@ -1,11 +1,16 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Typewriter from "typewriter-effect";
-import next from "../assests/next.png";
+import next from "../../assests/next.png";
+import {
+  AboutContainer,
+  AboutLeftContainer,
+  AboutRightContainer,
+} from "./styles";
 
 const About = () => (
-  <div className="about">
-    <div className="left-section">
+  <AboutContainer>
+    <AboutLeftContainer>
       <ScrollAnimation
         animateIn="fadeInLeft"
         animateOut="fadeOut"
@@ -29,13 +34,13 @@ const About = () => (
           <button>GET RSOUND!</button>
         </div>
       </ScrollAnimation>
-    </div>
+    </AboutLeftContainer>
     <ScrollAnimation animateIn="fadeInDown" animateOnce>
-      <div className="right-section">
+      <AboutRightContainer>
         <img src={next} alt="next" />
-      </div>
+      </AboutRightContainer>
     </ScrollAnimation>
-  </div>
+  </AboutContainer>
 );
 
 export default About;
