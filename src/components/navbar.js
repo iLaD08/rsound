@@ -4,7 +4,7 @@ import { FaCompactDisc } from "react-icons/fa";
 const Navbar = () => (
   <div className="navbar">
     <div className="first-section">
-      <div className="logo">
+      <div className="logo" onClick={() => (window.location.href = "/home")}>
         <FaCompactDisc />
         <h2>rsound</h2>
       </div>
