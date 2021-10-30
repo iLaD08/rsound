@@ -25,9 +25,9 @@ const Premium = () => (
         </div>
       </ScrollAnimation>
     </PremiumAboutContainer>
+    <Title>Why Go Premium?</Title>
+    <Underline />
     <ScrollAnimation animateIn="fadeInDown" animateOnce={true}>
-      <Title>Why Go Premium?</Title>
-      <Underline />
       <PremiumContent>
         <Content>
           <img src={DowloadSvg} alt="Download music." />
