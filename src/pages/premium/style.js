@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const PremiumAboutContainer = styled.div`
   display: flex;
-  align-items: flex-start;
-  margin-top: 35vh;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12vh;
   margin-left: 50px;
 
   h1 {

@@ -1,5 +1,6 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
+import PremiumSvg from "../../assests/premium.svg";
 import DowloadSvg from "../../assests/download.svg";
 import SongSvg from "../../assests/song.svg";
 import SkipsSvg from "../../assests/skips.svg";
@@ -24,10 +25,15 @@ const Premium = () => (
           <button>Get Premium</button>
         </div>
       </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeInDown" animateOnce>
+        <div>
+          <img src={PremiumSvg} alt="premium" />
+        </div>
+      </ScrollAnimation>
     </PremiumAboutContainer>
-    <Title>Why Go Premium?</Title>
-    <Underline />
-    <ScrollAnimation animateIn="fadeInDown" animateOnce={true}>
+    <ScrollAnimation animateIn="fadeInDown">
+      <Title>Why Go Premium?</Title>
+      <Underline />
       <PremiumContent>
         <Content>
           <img src={DowloadSvg} alt="Download music." />
