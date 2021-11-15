@@ -41,8 +41,8 @@ export const LeftSectionDiv = styled.div`
 
   button {
     background-color: #11135c;
-    border-radius: 50%;
-    width: 10px;
+    border-radius: 10px;
+    width: 80px;
     height: 50px;
     margin-top: 0px;
   }
