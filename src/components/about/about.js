@@ -31,7 +31,9 @@ const About = () => (
           </span>
         </h1>
         <div>
-          <button>GET RSOUND!</button>
+          <button onClick={() => (window.location.href = `/download`)}>
+            GET RSOUND!
+          </button>
         </div>
       </ScrollAnimation>
     </AboutLeftContainer>
